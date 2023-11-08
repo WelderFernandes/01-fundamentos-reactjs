@@ -1,3 +1,5 @@
+
+import { PencilLine } from '@phosphor-icons/react'
 import styles from './Sidebar.module.css'
 
 export function Sidebar() {
@@ -5,16 +7,20 @@ export function Sidebar() {
         <aside className={styles.sidebar}>
             <img
                 className={styles.cover}
-                src="https://i.pravatar.cc/300"
+                src='https://source.unsplash.com/random/300×300/?software'
             />
 
             <div className={styles.profile}>
+                <img className={styles.avatar} 
+                    src="https://i.pravatar.cc/150" 
+                    alt="avatar" />
                 <strong>Nome de Úsuario</strong>
                 <span>Descrição</span>
             </div>
 
             <footer>
                 <a href="#">
+                <PencilLine size={20} />
                     Editar seu perfil
                 </a>
             </footer>
