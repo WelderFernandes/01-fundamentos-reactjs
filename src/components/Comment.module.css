@@ -38,6 +38,7 @@
     line-height: 1.6;
     color: var(--gray-400);
 }
+
 .commentContent header button{
     background: transparent;
     border: 0;
