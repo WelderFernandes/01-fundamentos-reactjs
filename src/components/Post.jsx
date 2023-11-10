@@ -39,7 +39,7 @@ export function Post({author, content, publishedAt} = props) {
                     } else if(line.type === 'link'){
                         return <p key={line.content}><a href="#">{line.content}</a></p>
                     }
-                })
+                    })
                 }
             </div>
 
